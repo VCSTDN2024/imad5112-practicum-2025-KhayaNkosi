@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
             btnAdd.isEnabled = false
                 return@setOnClickListener
             }else{
-                btnAdd.isEnabled = false
+                btnAdd.isEnabled =true
             }
 
 
