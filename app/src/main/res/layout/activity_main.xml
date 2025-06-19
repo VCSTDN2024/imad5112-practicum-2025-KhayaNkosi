@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="26dp"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:text="Playlist Manager" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="367dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="20dp"
+        android:text="Add to Playlist" />
+
+    <EditText
+        android:id="@+id/edtSongTitle"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Song Title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtArtistsName"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Artist's Name"
+        android:inputType="text" />
+         />
+
+    <EditText
+        android:id="@+id/edtRating"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Rating(1-5)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtComment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Comment(Rap,Rnb,Pop,etc.)"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review Playlist"
+        android:layout_marginTop="26dp"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="Exit" />
+
+
+</LinearLayout>
