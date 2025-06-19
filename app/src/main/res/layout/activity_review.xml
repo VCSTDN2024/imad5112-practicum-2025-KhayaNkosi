@@ -27,46 +27,23 @@
         android:textAlignment="center"
         android:textSize="23sp" />
 
-    <TextView
+  <TextView
         android:id="@+id/TxtSongTitle"
         android:layout_width="match_parent"
-        android:layout_height="53dp"
-        android:layout_marginTop="26dp"
-        android:text="TextView" />
+        android:layout_height="44dp"
+        android:text="" />
 
     <TextView
-        android:id="@+id/TxtArtistsName"
+        android:id="@+id/TxtAverageRate"
         android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:layout_marginTop="26dp"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/TxtRating"
-        android:layout_width="match_parent"
-        android:layout_height="42dp"
-        android:layout_marginTop="26dp"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/TxtComment"
-        android:layout_width="match_parent"
-        android:layout_height="46dp"
-        android:layout_marginTop="26dp"
-        android:text="TextView" />
+        android:layout_height="104dp"
+        android:text="" />
 
     <Button
         android:id="@+id/btnCalculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
-        android:text="Average rate" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="match_parent"
-        android:layout_height="41dp"
-        android:text="TextView" />
+        android:text="Average Rating" />
 
     <Button
         android:id="@+id/btnMain"
