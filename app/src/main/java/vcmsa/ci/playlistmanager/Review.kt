@@ -19,6 +19,8 @@ class Review : AppCompatActivity() {
     private lateinit var TxtAverageRate: TextView
     private lateinit var TxtSongs: TextView
 
+
+
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,12 +46,8 @@ class Review : AppCompatActivity() {
         btnMain.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-        }
+        }}}
         //btnDisplay to display the songs titles artists name and ratings as well as comments
-        btnDisplay.setOnClickListener {
-
-                Toast.makeText(this, "results are going to show in a second", Toast.LENGTH_SHORT).show()
-        }
 
 
 
@@ -59,10 +57,5 @@ class Review : AppCompatActivity() {
 
 
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
-    }
-}
+
+
