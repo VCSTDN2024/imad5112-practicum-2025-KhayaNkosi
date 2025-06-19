@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/yes"
     tools:context=".Review">
 
 
@@ -15,6 +16,7 @@
         android:layout_height="36dp"
         android:layout_marginTop="26dp"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="23sp"
         android:text="Review Screen" />
 
@@ -23,6 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
+        android:textColor="@color/black"
         android:text="The songs you have added to the playlist are:"
         android:textAlignment="center"
         android:textSize="23sp" />
@@ -33,6 +36,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="26dp"
         android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/black"
         android:text="Display songs" />
 
     <TextView
@@ -54,12 +58,16 @@
         android:id="@+id/btnCalculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/black"
         android:text="Average Rating" />
 
     <Button
         android:id="@+id/btnMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/black"
         android:text="Back to main screen" />
 
 

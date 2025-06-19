@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
+    android:background="@drawable/yes"
     tools:ignore="ExtraText">
 
 
@@ -17,6 +18,7 @@
         android:layout_marginTop="26dp"
         android:textAlignment="center"
         android:textSize="23sp"
+        android:textColor="@color/black"
         android:text="Playlist Manager" />
 
     <Button
@@ -25,6 +27,7 @@
         android:layout_height="61dp"
         android:layout_marginTop="26dp"
         android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/black"
         android:text="Add to Playlist" />
 
     <EditText
@@ -34,6 +37,7 @@
         android:layout_marginTop="35dp"
         android:ems="10"
         android:hint="Song Title"
+        android:textColor="@color/black"
         android:inputType="text" />
 
     <EditText
@@ -42,6 +46,7 @@
         android:layout_height="68dp"
         android:layout_marginTop="35dp"
         android:ems="10"
+        android:textColor="@color/black"
         android:hint="Artist's Name"
         android:inputType="text" />
          />
@@ -52,6 +57,7 @@
         android:layout_height="61dp"
         android:layout_marginTop="35dp"
         android:ems="10"
+        android:textColor="@color/black"
         android:hint="Rating(1-5)"
         android:inputType="number" />
 
@@ -61,6 +67,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="35dp"
         android:ems="10"
+        android:textColor="@color/black"
         android:hint="Comment(Rap,Rnb,Pop,etc.)"
         android:inputType="text" />
 
@@ -69,6 +76,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Review Playlist"
+        android:backgroundTint="@color/black"
         android:layout_marginTop="26dp"/>
 
     <Button
@@ -76,6 +84,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
+        android:backgroundTint="@color/black"
         android:text="Exit" />
 
 
