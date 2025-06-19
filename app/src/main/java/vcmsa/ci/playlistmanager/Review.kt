@@ -12,6 +12,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class Review : AppCompatActivity() {
+    //Declare UI elements
     private lateinit var btnDisplay: Button
     private lateinit var btnMain: Button
     private lateinit var btnCalculate: Button
@@ -24,23 +25,27 @@ class Review : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_review)
 
+        //Initialize UI elements
         btnDisplay = findViewById(R.id.btnDisplay)
          btnMain = findViewById(R.id.btnMain)
          btnCalculate = findViewById(R.id.btnCalculate)
          TxtAverageRate = findViewById(R.id.TxtAverageRate)
          TxtSongs = findViewById(R.id.TxtSongs)
 
-        val songs = intent.getStringArrayListExtra("songs")
+        //to get the songstitles artists name and ratings as well as comments from the main activity
         val ratings = intent.getStringArrayListExtra("ratings")
+        val artists = intent.getStringArrayListExtra("artists")
+        val songTitles = intent.getStringArrayListExtra("songTitles")
+        val comments = intent.getStringArrayListExtra("comments")
 
 
 
-
+        //btnMain setonclicklistener to go back to the main screen
         btnMain.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
-
+        //btnDisplay to display the songs titles artists name and ratings as well as comments
         btnDisplay.setOnClickListener {
 
                 Toast.makeText(this, "results are going to show in a second", Toast.LENGTH_SHORT).show()

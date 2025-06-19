@@ -9,7 +9,8 @@
     android:background="@drawable/yes"
     tools:context=".Review">
 
-
+    <!--St10472859  Khaya Neo Nkosi-->
+    <!--Text View for heading Review-->
     <TextView
         android:id="@+id/heading"
         android:layout_width="match_parent"
@@ -19,7 +20,7 @@
         android:textColor="@color/black"
         android:textSize="23sp"
         android:text="Review Screen" />
-
+    <!--Text View for a message saying that the songs have been added-->
     <TextView
         android:id="@+id/subTitle"
         android:layout_width="match_parent"
@@ -29,7 +30,7 @@
         android:text="The songs you have added to the playlist are:"
         android:textAlignment="center"
         android:textSize="23sp" />
-
+<!--button to display songs-->
     <Button
         android:id="@+id/btnDisplay"
         android:layout_width="354dp"
@@ -38,7 +39,7 @@
         android:layout_marginLeft="20dp"
         android:backgroundTint="@color/black"
         android:text="Display songs" />
-
+<!--Text View for songs/Playlist-->
     <TextView
         android:id="@+id/TxtSongs"
         android:layout_width="match_parent"
@@ -47,13 +48,13 @@
         android:text=""
         android:textAlignment="center"
         android:textSize="23sp" />
-
+<!--Text View for the average rating-->
     <TextView
         android:id="@+id/TxtAverageRate"
         android:layout_width="match_parent"
         android:layout_height="104dp"
         android:text="" />
-
+<!--button to calculate the average rating for the songs the user inserted-->
     <Button
         android:id="@+id/btnCalculate"
         android:layout_width="match_parent"
@@ -61,7 +62,7 @@
         android:layout_marginTop="26dp"
         android:backgroundTint="@color/black"
         android:text="Average Rating" />
-
+<!--button to go back to the main screen-->
     <Button
         android:id="@+id/btnMain"
         android:layout_width="match_parent"
